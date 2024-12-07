@@ -1,0 +1,23 @@
+﻿@model GemBardPT.Models.ApiResponse
+
+@{
+    ViewData["Title"] = "Resposta da API Gemini";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <h3>Resposta da API:</h3>
+    @if (Model != null && !string.IsNullOrEmpty(Model.Response))
+    {
+        <p>@Model.Response</p>
+    }
+    else
+    {
+        <p>Nenhuma resposta recebida.</p>
+    }
+</div>
+
+<div class="mt-3">
+    <a asp-controller="Gemini" asp-action="Index" class="btn btn-primary">Fazer outra pergunta</a>
+</div>

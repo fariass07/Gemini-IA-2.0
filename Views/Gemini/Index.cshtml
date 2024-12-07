@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Faça sua Pergunta";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form method="post" action="/Gemini/GetResponseFromGemini">
+    <div class="form-group">
+        <label for="input">Digite sua pergunta:</label>
+        <input type="text" id="input" name="input" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-primary mt-2">Enviar</button>
+</form>
+
+@if (ViewBag.UserInput != null)
+{
+    <div class="mt-4">
+        <h3>Última pergunta:</h3>
+        <p>@ViewBag.UserInput</p>
+    </div>
+}
