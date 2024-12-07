@@ -37,3 +37,4 @@ C:\Users\negat\Desktop\GemBardTP\GemBardPT\obj\Debug\net8.0\GemBardPT.genruntime
 C:\Users\negat\Desktop\GemBardTP\GemBardPT\obj\Debug\net8.0\ref\GemBardPT.dll
 C:\Users\negat\Desktop\GemBardTP\GemBardPT\bin\Debug\net8.0\System.Net.Http.Formatting.dll
 C:\Users\negat\Desktop\GemBardTP\GemBardPT\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\negat\Desktop\GemBardTP\GemBardPT\obj\Debug\net8.0\GemBardPT.sourcelink.json
